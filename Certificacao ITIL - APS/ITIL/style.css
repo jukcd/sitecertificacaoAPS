@@ -1,0 +1,79 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif, monospace;
+}
+
+nav{
+    margin-top: 0;
+	display: flex;
+	position: fixed;
+	width: 100%;
+	height: 51px;
+    background-color:rgba(0,0,0,0.8);
+    margin-bottom: 50px;
+	
+}
+
+
+nav ul li {
+	float: left;
+	font-size: 20px;
+	list-style: none;
+}
+
+nav ul li a{
+	display: block;
+	text-align: center;
+	padding: 14px 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+nav ul li a:hover{
+	background-color: black;
+}
+
+header{
+    padding-top: 100px;
+}
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.texto{
+    width: 400px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+.primeTema{
+    margin-top: 20px;
+}
+
+.caracteristicas{
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.caracteristicas h2{
+    margin-bottom: 15px;
+}
+
+.caracteristicas  ul  li{
+    margin-bottom: 6px;
+    margin-left: 30px;
+}
+
+.imgBenef{
+    height: 400px;
+    margin-top: 50px;
+}
+
+header .img img{
+    height: 500px;
+    width: 500px;
+}
